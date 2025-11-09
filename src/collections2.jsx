@@ -25,7 +25,7 @@ function Collections2() {
 
         <div className="car-list">
           {twoOwner.map((car) => (
-            <div key={car.id} className="car-card" onClick={()=>take2(`/cars/car/${car.id}`)}>
+            <div key={car.id} className="car-card" onClick={()=>take2(`/cars/${car.id}`)}>
             <img className="carsimg" src={car.images[0]} alt={`${car.make} ${car.model}`} />
 
               <h3>
@@ -44,3 +44,4 @@ function Collections2() {
 }
 
 export default Collections2;
+
