@@ -25,7 +25,7 @@ function Collections3() {
 
         <div className="car-list">
           {threeOwner.map((car) => (
-            <div key={car.id} className="car-card" onClick={()=>take1(`/cars/car/${car.id}`)}>
+            <div key={car.id} className="car-card" onClick={()=>take1(`/cars/${car.id}`)}>
             <img className="carsimg" src={car.images[0]} alt={`${car.make} ${car.model}`} />
 
               <h3>
@@ -44,3 +44,4 @@ function Collections3() {
 }
 
 export default Collections3;
+
