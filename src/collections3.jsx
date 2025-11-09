@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 function Collections3() {
-  const take1=useNavigate()
+}  const take1=useNavigate()
   const [threeOwner, setThreeOwner] = useState([]);
   const [datas2, setDatas2] = useState([]);
 
@@ -25,7 +25,7 @@ function Collections3() {
 
         <div className="car-list">
           {threeOwner.map((car) => (
-            <div key={car.id} className="car-card" onClick={()=>take1(`/cars/car/${car.id}`)}>
+            <div key={car.id} className="car-card" onClick={()=>take1(`/cars/${car.id}`)}>
             <img className="carsimg" src={car.images[0]} alt={`${car.make} ${car.model}`} />
 
               <h3>
