@@ -156,8 +156,8 @@ HTML{
 }
 
 .simg{
-  width: 400px;
-  height: 350px;
+  width: 16rem;
+  height: 18rem;
    border-radius: 10px ;
     animation: fadeInUp 1s ease-in-out;
 }
@@ -165,9 +165,9 @@ HTML{
   display: flex;
   justify-content: center;  
   align-items: center;      
-  min-height: 40vh; 
+  min-height: 20rem; 
    animation: fadeInUp 1s ease-in-out;   
-   min-width: 55vh;     
+   min-width: 16rem;     
 }
 
 .maincar {
@@ -197,7 +197,7 @@ HTML{
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 .arr{
-  margin: 20px;
+  margin: 0.5rem;
   position: fixed;
   background-color: whitesmoke;
   padding: 0.2rem;
@@ -306,3 +306,4 @@ h6 {
   font-size: 0.9rem;
   margin-top: 1rem;
 }
+
