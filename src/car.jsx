@@ -52,22 +52,22 @@ function Car() {
 
         <div className="features1">
           <div className="f1">
-            <h3 className="owner">
+            <h4 className="owner">
               <div className="ownerfont">👤</div>
               {car.owner_count} Owner
-            </h3>
+            </h4>
 
-            <h3 className="type">
+            <h4 className="type">
               <div className="ownerfont">⚙️</div>
               {car.transmission}
               <br />Transmission
-            </h3>
+            </h4>
 
-            <h3 className="date">
+            <h4 className="date">
               <div className="ownerfont">📅</div>
               Posted on <br />
               {car.posted_date}
-            </h3>
+            </h4>
             
           </div>  <h3>🛠️ Service History:<br></br> {car.service_history}</h3>
         </div>
@@ -107,3 +107,4 @@ function Car() {
 }
 
 export default Car;
+
